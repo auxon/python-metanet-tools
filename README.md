@@ -4,6 +4,10 @@ Tools and scripts to experiment with the Metanet protocol as described here:
 
 https://nchain.com/app/uploads/2019/06/The-Metanet-Technical-Summary-v1.0.pdf
 
+Related OP_RETURN tools:
+
+https://github.com/bitcartel/python-bitcom-tools
+
 ## Metanet Data Layout
 
 How Metanet protocol data should be organized and encoded has not yet been formally specified.
