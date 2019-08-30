@@ -150,6 +150,7 @@ For more information:
 - Where the parent txid does not exist, does NULL mean the literal string NULL, zero byte(s) or the absence of an attribute field?
 - It is suggested that a node's index, 𝐼𝐷𝑛𝑜𝑑𝑒, be a fixed attribute of a node, however this cannot be calculated as 𝑇𝑥𝐼𝐷𝑛𝑜𝑑𝑒 is not known ahead of time.  Perhaps Metanet node APIs could be required to provide derived attributes.
 - MURLs could experience naming collisions. In the given MURL example of `mnp://bobsblog/summer`, the path `summer` comes from the node attribute `name: summer` but the parent could create a sibling child node with the same attribute.
+- With multiple subprotocols, an ordered array or key-ordered dictionary could be used to create a Unix style pipeline, similar to the Bitcom | operator.
 
 ## Resources
 
